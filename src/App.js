@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+const Wishes = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <marquee>
+        <img
+          src="https://i.ibb.co/PCykQtM/Whats-App-Image-2022-11-13-at-15-49-01.jpg"
+          className="image"
+          alt="img"
+        />
+      </marquee>
+      <marquee>
+        <h1 className="text-color">Happy BirthDay Kannaya...</h1>
+      </marquee>
     </div>
   );
-}
+};
 
-export default App;
+export default Wishes;
